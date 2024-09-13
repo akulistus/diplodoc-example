@@ -1,0 +1,21 @@
+title: Incart
+description:
+  - >-
+    Тест разводной страницы с несколькими абзацами.
+  - >-
+    Абзац 1
+  - >-
+    Абзац 2
+meta:
+  title: Meta
+  noIndex: true
+links:
+  - title: React
+    description: Описание проекта на React
+    href: ../_includes/getting-started-variants/offline-react.md
+  - title: Vue
+    description: Описание проекта на Vue
+    href: ../_includes/getting-started-variants/offline-vue.md
+  - title: JS
+    description: Описание проекта на JS
+    href: ../_includes/getting-started-variants/offline-javascript.md
