@@ -1,9 +1,40 @@
-title: Test-Docs
 href: index.yaml
-items:
+navigation:
+  logo:
+    url: "../ru"
+    urlTitle: 'Вернуться на главную'
+    dark:
+      icon: "../_assets/logo_new.png"
+    light:
+      icon: "../_assets/logo_new.png"
+  header:
+    rightItems:
+      - type: controls
+      # - type: search
+items: 
+  - name: Установка
+    href: install.md
   - name: Быстрый старт
     href: getting-started.md
-  - name: Тест вложенности
+  - name: Основы
+    include: 
+      path: fundamentals/fundamentalsToc.yaml
+      mode: link
+  - name: Для разарботчиков
+    href: developers-only.md
+  - name: Генератор сигналов
+    href: signal-generator.md
+  - name: Генератор событий
+    href: event-generator.md
+  - name: Интеграции
     include:
-      path: _includes/12/testToc.yaml
-    
+      path: integral/integralToc.yaml
+      mode: link
+  - name: Фичи
+    include:
+      path: features/featuresToc.yaml
+      mode: link
+  - name: Контейнеры
+    include:
+      path: containers/containersToc.yaml
+      mode: link

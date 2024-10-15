@@ -1,0 +1,5 @@
+title: Интеграции
+# href: index.yaml
+items:
+  - name: VUE-компонент
+    href: example-component-graph.md

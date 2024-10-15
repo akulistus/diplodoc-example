@@ -1,21 +1,30 @@
-title: Incart
-description:
-  - >-
-    Тест разводной страницы с несколькими абзацами.
-  - >-
-    Абзац 1
-  - >-
-    Абзац 2
-meta:
-  title: Meta
-  noIndex: true
-links:
-  - title: React
-    description: Описание проекта на React
-    href: ../_includes/getting-started-variants/offline-react.md
-  - title: Vue
-    description: Описание проекта на Vue
-    href: ../_includes/getting-started-variants/offline-vue.md
-  - title: JS
-    description: Описание проекта на JS
-    href: ../_includes/getting-started-variants/offline-javascript.md
+# blocks:
+# - type: 'card-layout-block'
+  title: Документация графической библиотеки jagm
+  description:
+    - >-
+      Графическая библиотека предназначена для отображения графиков медицинских сигналов
+#   children:
+  # - url: 'https://example.com'
+  #   title: 'Lorem ipsum'
+  #   text: "<p><strong>Ut enim ad minim veniam</strong> <a href=\"https://example.com\">quis nostrud</a> exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>\n"
+  #   urlTitle: 'Opens in a new tab'
+  links:
+    - title: Установка
+      description: Интеграция библиотеки в проект
+      href: install.md
+    - title: Быстрый старт
+      description: Ознакомление с основами работы с библиотекой
+      href: getting-started.md
+    - title: Основы
+      description: Основные концепции для работы с библиотекой
+      href: fundamentals/general-info.md
+    - title: Для разработчико
+      description: Установки библиотеки для её разработки
+      href: developers-only.md
+    - title: Генератор сигналов
+      description: Описание и возможные настройки генератора сигналов
+      href: signal-generator.md
+    - title: Генератор меток
+      description: Описание и возможные настройки генератора событий
+      href: event-generator.md

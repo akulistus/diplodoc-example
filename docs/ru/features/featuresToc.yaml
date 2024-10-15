@@ -1,0 +1,19 @@
+title: Фичи
+# href: index.yaml
+items:
+  - name: График
+    href: example-simple-graph.md
+  - name: Оффлайн график
+    href: example-offline-simple-graph.md
+  - name: График с несинхронизованными сигналами
+    href: example-async-graph.md
+  - name: График с метками
+    href: example-marks-graph.md
+  - name: Гистограмма
+    href: example-hist-graph.md
+  - name: Скатерограмма
+    href: example-scatter-graph.md
+  - name: Тренд
+    href: example-trend-graph.md
+  - name: График синхронизации ЭКГ и трендов
+    href: example-sync-ecg-trend-graph.md

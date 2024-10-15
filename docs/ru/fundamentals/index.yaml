@@ -1,0 +1,12 @@
+title: Основы
+links:
+  - title: Общие сведения
+    href: general-info.md
+  - title: Файл конфигурации
+    href: config-file.md
+  - title: Контейнеры
+    href: containers.md
+  - title: Графики
+    href: graphs.md
+  - title: Графические элементы
+    href: graph-elements.md

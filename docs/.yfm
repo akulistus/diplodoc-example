@@ -1,1 +1,3 @@
-langs: ['en', 'ru']
+allowHTML: true
+langs: ['ru', 'en']
+# search: true

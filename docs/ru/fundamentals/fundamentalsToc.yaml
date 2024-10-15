@@ -1,0 +1,17 @@
+title: Основы
+href: index.yaml
+items:
+  - name: Общие сведения
+    href: general-info.md
+  - name: Файл конфигурации
+    href: config-file.md
+  - name: Свойства объекта data
+    href: data-properties.md
+  - name: Свойства объекта view
+    href: view-properties.md
+  - name: Контейнеры
+    href: containers.md
+  - name: Графики
+    href: graphs.md
+  - name: Графические элементы
+    href: graph-elements.md
